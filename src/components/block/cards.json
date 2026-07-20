@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_block_cards",
+  "info": {
+    "displayName": "Cards",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button_style": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "background_css": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

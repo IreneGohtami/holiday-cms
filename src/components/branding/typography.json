@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_branding_typographies",
+  "info": {
+    "displayName": "Typography",
+    "icon": "pencil"
+  },
+  "options": {},
+  "attributes": {
+    "font_family": {
+      "type": "string"
+    },
+    "font_size": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

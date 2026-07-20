@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_block_search_tabs",
+  "info": {
+    "displayName": "Search Tabs",
+    "icon": "manyWays"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "search_type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "flight_hotel",
+        "flight_stopover",
+        "hotel",
+        "tour",
+        "event"
+      ]
+    },
+    "deeplink_base_url": {
+      "type": "string",
+      "required": true
+    },
+    "product_id": {
+      "type": "string",
+      "required": true
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}

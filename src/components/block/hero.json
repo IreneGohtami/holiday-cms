@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_block_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "eyebrow_color": {
+      "type": "string"
+    },
+    "title_color": {
+      "type": "string"
+    },
+    "subtitle_color": {
+      "type": "string"
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "text_placement": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "middle",
+        "right"
+      ]
+    },
+    "desktop_media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mobile_media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ]
+    },
+    "overlay_opacity": {
+      "type": "decimal"
+    },
+    "primary_button_label": {
+      "type": "string"
+    },
+    "primary_button_url": {
+      "type": "string"
+    },
+    "secondary_button_label": {
+      "type": "string"
+    },
+    "secondary_button_url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

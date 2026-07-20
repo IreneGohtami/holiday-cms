@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_branding_themes",
+  "info": {
+    "displayName": "Theme",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primary_color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "secondary_color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "background_color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "accent_color": {
+      "type": "string",
+      "default": "#0000FF"
+    },
+    "text_primary": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "text_secondary": {
+      "type": "string",
+      "default": "#6C757D"
+    },
+    "default_font_family": {
+      "type": "string"
+    },
+    "h1": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    },
+    "h2": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    },
+    "h3": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    },
+    "body": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    },
+    "footer": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

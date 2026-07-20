@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "page_type": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "campaign",
+        "article",
+        "about",
+        "faq"
+      ]
+    },
+    "page_section": {
+      "type": "dynamiczone",
+      "components": [
+        "block.hero",
+        "block.search-widget",
+        "block.destination-grid"
+      ]
+    }
+  }
+}

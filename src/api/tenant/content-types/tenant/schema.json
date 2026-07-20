@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tenants",
+  "info": {
+    "singularName": "tenant",
+    "pluralName": "tenants",
+    "displayName": "Tenant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "domain": {
+      "type": "string",
+      "required": true
+    },
+    "default_language": {
+      "type": "string",
+      "default": "en-en"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "theme": {
+      "type": "component",
+      "component": "branding.theme",
+      "repeatable": false
+    }
+  }
+}

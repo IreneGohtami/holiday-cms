@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_block_search_widgets",
+  "info": {
+    "displayName": "Search Widget",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "tabs": {
+      "type": "component",
+      "component": "block.search-tabs",
+      "repeatable": true,
+      "required": true
+    },
+    "default_tab": {
+      "type": "enumeration",
+      "default": "flight_hotel",
+      "enum": [
+        "flight_hotel",
+        "flight_stopover",
+        "hotel",
+        "tour",
+        "event"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_block_destination_grids",
+  "info": {
+    "displayName": "Destination Grid",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5"
+      ]
+    },
+    "show_view_all": {
+      "type": "boolean",
+      "default": true
+    },
+    "view_all_label": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "show_view_all"
+            },
+            true
+          ]
+        }
+      },
+      "required": true
+    },
+    "view_all_url": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "show_view_all"
+            },
+            true
+          ]
+        }
+      },
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "component": "block.cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
