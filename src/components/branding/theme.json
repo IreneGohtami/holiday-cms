@@ -50,33 +50,17 @@
       "type": "string",
       "default": "#6C757D"
     },
-    "default_font_family": {
-      "type": "string"
-    },
-    "h1": {
+    "heading_font_family": {
       "type": "component",
-      "component": "branding.typography",
-      "repeatable": false
+      "component": "branding.font-family",
+      "repeatable": false,
+      "required": false
     },
-    "h2": {
+    "body_font_family": {
       "type": "component",
-      "component": "branding.typography",
-      "repeatable": false
-    },
-    "h3": {
-      "type": "component",
-      "component": "branding.typography",
-      "repeatable": false
-    },
-    "body": {
-      "type": "component",
-      "component": "branding.typography",
-      "repeatable": false
-    },
-    "footer": {
-      "type": "component",
-      "component": "branding.typography",
-      "repeatable": false
+      "component": "branding.font-family",
+      "repeatable": false,
+      "required": false
     }
   },
   "config": {}

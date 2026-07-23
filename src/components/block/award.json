@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_block_awards",
+  "info": {
+    "displayName": "Award",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image_width": {
+      "type": "integer"
+    },
+    "image_height": {
+      "type": "integer"
+    },
+    "display_award": {
+      "type": "boolean",
+      "default": true
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "default": "left",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    }
+  },
+  "config": {}
+}

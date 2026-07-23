@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_block_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "oneToOne"
+  },
+  "options": {},
+  "attributes": {
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "simple",
+        "column_2",
+        "column_3",
+        "column_4"
+      ]
+    },
+    "background_color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "text_color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "copyright": {
+      "type": "text"
+    },
+    "footer_links": {
+      "type": "component",
+      "component": "block.link-group",
+      "repeatable": true
+    },
+    "policy_links": {
+      "type": "component",
+      "component": "block.link",
+      "repeatable": true
+    },
+    "awards": {
+      "type": "component",
+      "component": "block.award",
+      "repeatable": false
+    },
+    "social_links": {
+      "type": "component",
+      "component": "block.social-group",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

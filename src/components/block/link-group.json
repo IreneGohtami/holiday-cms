@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_block_link_groups",
+  "info": {
+    "displayName": "Link Group",
+    "icon": "manyToOne"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "component": "block.link",
+      "repeatable": true
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "default": "left",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "has_cta": {
+      "type": "boolean",
+      "default": false
+    },
+    "cta_label": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "has_cta"
+            },
+            true
+          ]
+        }
+      },
+      "required": true
+    },
+    "cta_url": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "has_cta"
+            },
+            true
+          ]
+        }
+      },
+      "required": true
+    }
+  },
+  "config": {}
+}

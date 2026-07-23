@@ -35,6 +35,16 @@
       "type": "component",
       "component": "branding.theme",
       "repeatable": false
+    },
+    "Header": {
+      "type": "component",
+      "component": "block.navigation-group",
+      "repeatable": true
+    },
+    "footer": {
+      "type": "component",
+      "component": "block.footer",
+      "repeatable": false
     }
   }
 }

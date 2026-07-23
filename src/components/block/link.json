@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "open_new_tab": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}

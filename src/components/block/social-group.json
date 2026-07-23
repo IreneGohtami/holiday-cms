@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_social_groups",
+  "info": {
+    "displayName": "Social Group",
+    "icon": "twitter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "display_social": {
+      "type": "boolean",
+      "default": true
+    },
+    "links": {
+      "type": "component",
+      "component": "block.social-link",
+      "repeatable": true
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "default": "left",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    }
+  },
+  "config": {}
+}

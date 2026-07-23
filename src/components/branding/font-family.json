@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_branding_font_families",
+  "info": {
+    "displayName": "Font Family",
+    "icon": "paintBrush"
+  },
+  "options": {},
+  "attributes": {
+    "font_family": {
+      "type": "enumeration",
+      "enum": [
+        "inter",
+        "roboto",
+        "poppins",
+        "montserrat",
+        "prata",
+        "playfair_display",
+        "lora"
+      ]
+    }
+  },
+  "config": {}
+}

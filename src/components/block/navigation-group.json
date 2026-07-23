@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_block_navigation_groups",
+  "info": {
+    "displayName": "Navigation Group",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "link",
+        "dropdown"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "type"
+            },
+            "link"
+          ]
+        }
+      },
+      "component": "block.link",
+      "repeatable": true,
+      "required": true
+    },
+    "dropdown_items": {
+      "type": "component",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "type"
+            },
+            "dropdown"
+          ]
+        }
+      },
+      "component": "block.link-group",
+      "repeatable": true,
+      "required": true
+    }
+  },
+  "config": {}
+}
