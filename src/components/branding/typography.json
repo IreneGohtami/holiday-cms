@@ -6,11 +6,29 @@
   },
   "options": {},
   "attributes": {
-    "font_family": {
+    "text": {
+      "type": "string",
+      "required": false
+    },
+    "text_color": {
       "type": "string"
+    },
+    "font_family": {
+      "type": "component",
+      "component": "branding.font-family",
+      "repeatable": false
     },
     "font_size": {
       "type": "integer"
+    },
+    "font_style": {
+      "type": "enumeration",
+      "default": "normal",
+      "enum": [
+        "normal",
+        "italic",
+        "oblique"
+      ]
     }
   },
   "config": {}

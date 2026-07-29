@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_block_promotion_grids",
+  "info": {
+    "displayName": "Promotion Grid",
+    "icon": "gift"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    },
+    "title": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    },
+    "subtitle": {
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
+    },
+    "has_cta": {
+      "type": "boolean",
+      "default": true
+    },
+    "cta_label": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "has_cta"
+            },
+            true
+          ]
+        }
+      },
+      "required": true
+    },
+    "cta_url": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "has_cta"
+            },
+            true
+          ]
+        }
+      },
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "component": "block.cards",
+      "repeatable": true
+    },
+    "background_color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "background_gradient": {
+      "type": "enumeration",
+      "default": "none",
+      "enum": [
+        "none",
+        "sunset",
+        "ocean",
+        "sky",
+        "forest",
+        "dark",
+        "brand"
+      ]
+    }
+  },
+  "config": {}
+}

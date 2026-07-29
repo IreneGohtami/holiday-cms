@@ -32,7 +32,10 @@
       "components": [
         "block.hero",
         "block.search-widget",
-        "block.destination-grid"
+        "block.destination-grid",
+        "block.promotion-grid",
+        "block.article",
+        "block.hotel-grid"
       ]
     }
   }

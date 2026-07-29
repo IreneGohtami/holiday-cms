@@ -6,11 +6,14 @@
   },
   "options": {},
   "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
     "subtitle": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
       "type": "media",
@@ -37,8 +40,11 @@
     "button_url": {
       "type": "string"
     },
-    "background_css": {
-      "type": "string"
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
     }
   },
   "config": {}

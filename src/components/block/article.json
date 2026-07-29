@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_articles",
+  "info": {
+    "displayName": "Article",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

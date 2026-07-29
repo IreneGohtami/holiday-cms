@@ -29,6 +29,10 @@
         "tour",
         "event"
       ]
+    },
+    "is_sticky": {
+      "type": "boolean",
+      "default": false
     }
   },
   "config": {}

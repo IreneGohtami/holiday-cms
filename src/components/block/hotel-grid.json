@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_hotel_grids",
+  "info": {
+    "displayName": "Hotel Grid",
+    "icon": "gate"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "enumeration",
+      "default": "modular",
+      "enum": [
+        "column",
+        "modular"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "component": "block.cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

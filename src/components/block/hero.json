@@ -7,22 +7,19 @@
   "options": {},
   "attributes": {
     "eyebrow": {
-      "type": "string"
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
     },
     "title": {
-      "type": "string"
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
     },
     "subtitle": {
-      "type": "string"
-    },
-    "eyebrow_color": {
-      "type": "string"
-    },
-    "title_color": {
-      "type": "string"
-    },
-    "subtitle_color": {
-      "type": "string"
+      "type": "component",
+      "component": "branding.typography",
+      "repeatable": false
     },
     "text_alignment": {
       "type": "enumeration",
@@ -36,7 +33,7 @@
       "type": "enumeration",
       "enum": [
         "left",
-        "middle",
+        "center",
         "right"
       ]
     },
@@ -59,6 +56,9 @@
         "audios",
         "files"
       ]
+    },
+    "video_url": {
+      "type": "text"
     },
     "overlay_opacity": {
       "type": "decimal"
