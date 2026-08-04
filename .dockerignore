@@ -1,0 +1,14 @@
+node_modules
+.tmp
+.cache
+dist
+build
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+.DS_Store
+*.log
+npm-debug.log*
+.strapi-updater.json
